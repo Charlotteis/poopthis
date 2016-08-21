@@ -13,7 +13,7 @@ module.exports = function (string) {
   return poop + ' ' + string + ' ' + poop
 }
 
-module.exports = function pooptimes (string, times) {
+module.exports.times = function pooptimes (string, times) {
   var string = string.trim()
   var poop = emoji.get('hankey')
   if (times === 0)
