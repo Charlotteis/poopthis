@@ -8,9 +8,15 @@ by the poop emoji (poomoji).
 ```javascript
 const poopthis = require('poopthis')
 
-console.log(poopthis('What is the point of this node package?', 3))
+console.log(poopthis('What is the point of this node package?'))
 ```
+Output: :hankey: What is the point of this node package? :hankey:
 
+```javascript
+const poopthis = require('poopthis')
+
+console.log(poopthis.times('What is the point of this node package?', 3))
+```
 Output: :hankey: :hankey: :hankey: What is the point of this node package? :hankey: :hankey: :hankey:
 
 :ok_hand:
